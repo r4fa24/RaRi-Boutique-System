@@ -1,3 +1,5 @@
+# SECURITY NOTE: In a production environment, use environment variables 
+# to store database credentials rather than hardcoding them.
 import mysql.connector
 from tabulate import tabulate
 '''mydb=mysql.connector.connect(host="localhost",user='root',passwd='efia@123')
